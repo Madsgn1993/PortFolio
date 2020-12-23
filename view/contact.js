@@ -1,45 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    />
-    <link rel="stylesheet" href="../style.css" />
-
-    <title>CONTACT</title>
-  </head>
-  <body>
-    <header>
-      <div id="content_logo">
-        <a><img src="../static/heartLogo.png" alt="Logo ICS" /></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="donsvivant.html">Dons de votre Vivant</a></li>
-          <li><a href="donsmort.html">Dons de votre Mort</a></li>
-          <li><a href="actualites.html">Actualité</a></li>
-          <li><a href="quisommenous.html">Qui sommes nous? </a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <!-- SECTION MAP -->
-
-      <section id="map">Carte</section>
-
-      <!-- SECTION LOGO -->
-<section class="bordure">
+export const contact = `
+  <div id="section_contact">
+    <section id="map">Carte</section>
+      <section class="bordure">
       <section class="logo">
-        <div class="ics"></div>
-        <!-- demander les images de main en petit à Madisson  -->
+          <div class="ics"></div>
+          <!-- demander les images de main en petit à Madisson  -->
       </section>
-</section>
-<br>
+    </section>
+    <br>
       <!-- SECTION INFOS -->
       <span>Vous trouverez ci-dessus une map qui reprend les adresses de nos partenaires (hôpitaux) et de nos locaux. Pour toute autre information, n'hésitez pas à prendre contact avec nous.
       </span>
@@ -103,23 +71,5 @@
           </div>
         </div>
       </section>
-    </main>
-
-    <footer>
-      <!--Intégrer le footer via JS-->
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-
-    <script src="../script.js"></script>
-  </body>
-</html>
+  </div>
+    `;
