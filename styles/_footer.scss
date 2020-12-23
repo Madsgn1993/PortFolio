@@ -1,42 +1,48 @@
 /****************************************************
 //BAS DE PAGE: FOOTER: Comment le faire GRAND/PETIT ? TBD
 *****************************************************/
-#section_footer{
-.footer{
+#section_footer {
+  .footer {
     display: flex;
     height: 300px;
-    width:100%;
-    .presentation{
-      width:40%;
+    width: 100%;
+    .presentation {
+      width: 40%;
       display: inline;
       flex-direction: column;
       font-size: medium;
     }
     .footer-nav,
-    .others{
-      display:inline;
+    .others {
+      display: inline;
       flex-direction: column;
       font-size: small;
-      width:30%;
+      width: 30%;
       text-align: left;
     }
-    .footer-footer>li>a{
+    .footer-footer > li > a {
       font-size: 9px;
     }
-    .RS>div{
+    .RS > div {
       width: 75px;
       height: 75px;
       display: flex;
       flex-direction: row;
-      border:1px solid gray;
+      border: 1px solid gray;
       border-radius: 50%;
       justify-content: space-between;
       align-items: center;
       text-align: center;
-      left:50%;
-  
+      left: 50%;
     }
-  
+  }
+
+  .mini-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    a {
+      color: black;
+    }
   }
 }
-  
