@@ -8,6 +8,7 @@
 @import "./styles/quisommesnous";
 @import "./styles/nav";
 @import "./styles/footer";
+@import "./styles/fontFamily";
 /*@import "./styles/contact";*/
 
 img {
@@ -15,13 +16,13 @@ img {
   width: 280px;
 }
 
-//--------------------------------------CSS QUI SOMMES NOUS -----------------------------------------
 html,
 body {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
+  // font-family: $fontfamily;
 }
 
 //CSS RESTE DU SITE ------------------------------------------------
@@ -42,20 +43,9 @@ footer {
  #AFFC41 : Lime (citron vert)
  #B2FF9E : Vert clair 
 */
-/*@font-face {
-    font-family: "Oxford";
-    src: url(/polices/Oxford-LAqy.ttf) format("truetype");
-    font-family: "Playfair";
-    src: url(/polices/PlayfairDisplay-VariableFont_wght.ttf) format("truetype");
-    font-family: "Playfair-italic";
-    src: url(/polices/PlayfairDisplay-Italic-VariableFont_wght.ttf)
-      format("truetype");
-    font-family: "Helvetica Now";
-    src: url(/polices/HelveticaNowDisplayXBlk.otf) format("truetype");
-}*/
 
 * {
-  font-family: "Playfair";
+  // font-family: $fontfamily;
 }
 nav {
   height: 100%;

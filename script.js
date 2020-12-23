@@ -32,7 +32,6 @@ function tournerLaCarte(e) {
 }
 const main = document.querySelector('main');
 const header_nav = document.querySelector('header');
-
 header_nav.innerHTML = nav;
 
 const link_donsvivant = document.getElementById('link_donsvivant');
