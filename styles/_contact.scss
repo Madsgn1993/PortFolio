@@ -1,3 +1,143 @@
 #section_contact{
-    
+    /* dependencies */
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
+
+
+/* local imports */
+@import "./styles/variables";
+@import "./styles/fonts";
+@import "./styles/base";
+@import "./styles/_leaflet";
+@import "./style.css";
+
+*{
+  box-sizing: border-box;
+  font-family: $main-font;
+
+}
+header {
+  background-color: $primary-color;
+}
+h1{
+  color: $darkturquoise !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+/****************************************************************
+//CARTE-MAP 
+***************************************************************/
+
+#map{
+  height: 300px;
+  margin:auto;
+  z-index: 1;
+}
+
+/***************************************************************
+//LOGO: MAINS ou COEUR: TBD
+****************************************************************/
+
+.logo{
+  display:flex;
+  position:relative;
+  z-index: 2;
+  width:220px;
+  height:220px;
+  background-image: url(./static/images/mains.png);
+  margin:auto;
+  border-radius: 50%;
+  border:25px solid $lightturquoise;
+  border-color: rgba(19,232,242,0.7);
+  margin-top:-100px;
+  background-color:whitesmoke;
+  text-align: center;
+  box-shadow:10px 10px 5px grey;
+}
+/****************************************************
+//BAS DE PAGE: PARTIE INFOS - GRAND/PETIT ? TBD
+*****************************************************/
+.infos-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  width:100%;
+  height:500px;
+  padding-top:200px;
+  z-index: 1;
+  margin-top:-150px;
+  color: $darkturquoise;
+  font-size: small;
+  background-color: $primary-color;
+  
+  
+
+  .uno,
+  .dos,
+  .tres,
+  .quatro{
+    margin-top:70px;
+    display:flex;
+    color:#086375;
+    width: 200px;
+    height: 200px;
+    background-color:$lightturquoise;
+    border-radius: 25%;
+    padding-left:30px;
+    line-height: 2px;
+    margin:auto;
+    box-shadow:10px 10px 5px grey;
+  }
+
+.uno{
+    padding-left:35px;
+  }
+
+.dos{
+    padding-left:10px;
+  }
+
+
+  // } 
+.text{
+    text-align: center center;
+  }
+}
+
+.icon{
+  font-size: large;
+  .fas,
+  .fad{ 
+  width:50px;
+  height: 50px;  
+  margin-top: 25px;
+  padding:10px 10px 10px 10px;
+  align-self: center;
+  align-content: center;
+  text-align: center center;
+  justify-items: center center;
+  justify-content: center center;
+  background-color: $lime;
+  border-radius:12px;
+  color:$darkturquoise;
+  border:1px solid $darkturquoise;
+  // font-size: 28px;
+  
+
+}
+}
+
+/****************************************************
+//BAS DE PAGE: Comment le faire GRAND/PETIT ? TBD
+*****************************************************/
+
 }
