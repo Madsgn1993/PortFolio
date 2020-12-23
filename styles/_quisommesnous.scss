@@ -1,3 +1,127 @@
-#section_quisommesnous{
-    
+#section_quisommesnous {
+  //CSS CARTE PRESENTATION
+  /* Pour ce qui est des propriétés du type perspective, transform, transition ou encore backface et selon les navigateurs Internet, il faut rajouter les préfixes correspondants: -webkit, -moz-, ms- ou -o*/
+  .flippingcard {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+    margin-left: 99px;
+  }
+  div[class^="card"] {
+    height: 300px;
+    width: 200px;
+    perspective-origin: center bottom;
+    position: relative;
+  }
+  div[class^="card"] [class^="face"] {
+    /* Dans ce cas, il faut laisser un espace entre les deux sélecteurs d'attributs ([class^="card"] et [class^="face"]) */
+    /*ATTENTION: L'option TidyUp de JsFiddle va automatiquement enlever l'espace entre les deux sélecteurs d'attributs*/
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+  }
+
+  .face-back {
+    padding: 15px;
+  }
+
+  #face-Annick {
+    background-image: url("static/Illuannick.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    z-index: 5;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 9px 7px 17px 2px #086375;
+  }
+
+  #face-Mad {
+    background-image: url("static/madi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    z-index: 5;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 9px 7px 17px 2px #086375;
+  }
+
+  #face-Melo {
+    background-image: url("static/illuChrrrrrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 200px;
+    z-index: 5;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 9px 7px 17px 2px #086375;
+  }
+  div[class^="card"] .face-back {
+    background-color: #1ddbb0;
+    z-index: 0;
+    transform: rotateY(-180deg);
+  }
+  div[class^="card"].rotated .face-front {
+    z-index: 5;
+    transform: rotateY(180deg);
+  }
+  div[class^="card"].rotated .face-back {
+    z-index: 10;
+    transform: rotateY(0deg);
+  }
+  button {
+    margin-top: 60px;
+    background-color: #6b2775;
+    border-radius: 4px;
+    width: 231px;
+    padding: 6px;
+    border: none;
+    height: 40px;
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .face-back > p {
+    text-align: center;
+    margin-top: 20%;
+    font-size: larger;
+  }
+
+  #presentation {
+    text-align: center;
+    width: 80%;
+    margin-left: 9%;
+    p {
+      width: 50%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 15px;
+      font-size: large;
+    }
+
+    border-bottom: 1px solid #6b2775;
+    border-width: 80%;
+  }
+
+  #contain_card {
+    text-align: center;
+    margin-top: 20px;
+  }
 }
