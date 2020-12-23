@@ -37,5 +37,12 @@ InCorporeSano
 <li><a href="#"></a></li>
 </ul>
 </div>
+<hr>
+<div class="footer-footer">
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Plan du site</a></li>
+<li><a href="#">Conditions & termes </a></li>
+<li><a href="#">Copyright</a></li>
+</div>
 </div>
 `;
