@@ -1,4 +1,5 @@
 export const actualites = `
+    <div id="section_actualites">
       <h1>Actualités</h1>
       <p>Phrase d'accroche du style "ici retrouver les actu"</p>
       <article>
@@ -55,4 +56,5 @@ export const actualites = `
         praesentium repudiandae voluptatum reprehenderit. Obcaecati
         exercitationem reprehenderit veritatis nesciunt dolorum modi.
       </article>
+    </div>
     `;
