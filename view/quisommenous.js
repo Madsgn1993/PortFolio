@@ -1,29 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qui sommes nous? 
-    </title>
-    <link rel="stylesheet" href="../style.css" />
-    
-</head>
-<body>
-    <header>
-        <div id="content_logo">
-          <a><img src="../static/heartLogo.png" alt="Logo ICS" /></a>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="donsvivant.html">Dons de votre Vivant</a></li>
-            <li><a href="donsmort.html">Dons de votre Mort</a></li>
-            <li><a href="actualites.html">Actualité</a></li>
-            <li><a href="quisommenous.html">Qui sommes nous? </a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-    <div id="presentation">
+export const quisommesnous = `
+   <div id="presentation">
         <h1>Qui sommes nous ? </h1>
         <p>Sur ce projet, nous sommes 3. Mélody, Annick et Madisson. 3 femmes qui se lancent dans le monde du développement. Nous suivons toutes les 3 une formation de Webmaster Frond End à Interface3 Bruxelles.
         </p>
@@ -64,10 +40,4 @@
             <button id="btn">Description</button>
         </div>
     </div>
-    <footer>
-        <!--<img src="static/illuQuiSommeNous1.png" alt="branche pulmonaire" >-->
-    </footer>
-    
-    <script src="../script.js"></script>
-</body>
-</html>
+   `;

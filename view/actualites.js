@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ICS - Actualités</title>
-    <link rel="stylesheet" href="../style.css" />
-  </head>
-  <body>
-    <header>
-      <div id="content_logo">
-        <a><img src="../static/heartLogo.png" alt="Logo ICS" /></a>
-      </div>
-      <nav>
-        <ul>
-          <li><a href="donsvivant.html">Dons de votre Vivant</a></li>
-          <li><a href="donsmort.html">Dons de votre Mort</a></li>
-          <li><a href="actualites.html">Actualité</a></li>
-          <li><a href="quisommenous.html">Qui sommes nous? </a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+export const actualites = `
       <h1>Actualités</h1>
       <p>Phrase d'accroche du style "ici retrouver les actu"</p>
       <article>
@@ -78,16 +55,4 @@
         praesentium repudiandae voluptatum reprehenderit. Obcaecati
         exercitationem reprehenderit veritatis nesciunt dolorum modi.
       </article>
-    </main>
-    <footer>
-      <!--Intégrer le footer via JS-->
-    </footer>
-    <!--Scripts-->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script src="../script.js"></script>
-  </body>
-</html>
+    `;
