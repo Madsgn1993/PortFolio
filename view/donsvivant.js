@@ -8,19 +8,13 @@ export const donsvivant = `
           ex dignissimos natus, sint veritatis quos ipsum. Pariatur eum tenetur
           animi officia sunt ducimus, sit atque. Ab earum perferendis facilis.
         </p>
-        <img
-          src="../static/torse.png"
-          alt="Illustration représentant un torse avec un coeur cousu."
-        />
+        <img src="torse.png" alt="Illustration représentant un torse avec un coeur cousu."/>
       </section>
                                                     <!--DONS CHEVEUX-->
       <section>
         <div>
           <h4>Dons de cheveux</h4>
-          <img
-            src="../static/tresse.png"
-            alt="Illustration d'une tresse de cheveux."
-          />
+          <img src="tresse.png" alt="Illustration d'une tresse de cheveux."/>
         </div>
         <div>
           <h5>Pourquoi donner ses cheveux ?</h5>
@@ -92,7 +86,7 @@ export const donsvivant = `
       <section>
         <div>
           <h4>Dons de sang, de plasma et de plaquettes</h4>
-          <img src="../static/pochedesang.png" alt="Illustration d'une poche médicale." />
+          <img src="poche.png" alt="Illustration d'une poche médicale." />
           <h4>Le don de sang</h4>
         </div>
         <div>
