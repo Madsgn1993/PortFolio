@@ -1,6 +1,6 @@
 export const donsvivant = `
     <div id="section_donsvivant">
-      <h2>Dons de votre vivant</h2>                               
+      <h1>Dons de votre vivant</h1>                               
       <section>
         <h3>Introduction</h3>
         <p>
@@ -13,11 +13,11 @@ export const donsvivant = `
                                                     <!--DONS CHEVEUX-->
       <section>
         <div>
-          <h4>Dons de cheveux</h4>
+          <h3>Dons de cheveux</h3>
           <img src="tresse.png" alt="Illustration d'une tresse de cheveux."/>
         </div>
         <div>
-          <h5>Pourquoi donner ses cheveux ?</h5>
+          <h4>Pourquoi donner ses cheveux ?</h4>
           <p>
             Lorsque l'on entame une chimiothérapie (traitements médicamenteux
             contre le cancer), il y a de forte chance de perdre ses cheveux.
@@ -34,7 +34,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>Les conditions pour donner</h5>
+          <h4>Les conditions pour donner</h4>
           <p>
             La condition principale est que vos cheveux soient en bonne santé
             (naturels, gris ou colorés) et que votre queue de cheval fasse
@@ -44,7 +44,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>Les conditions pour recevoir</h5>
+          <h4>Les conditions pour recevoir</h4>
           <p>
             Pour demander une intervention du Fonds Coupe d'Éclat,
             vous devez prendre contact avec un(e) assistant(e) social(e)
@@ -59,7 +59,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>A qui donner, comment,... ?</h5>
+          <h4>A qui donner, comment,... ?</h4>
           <p>
             Trois solutions s’offrent à vous :
             <ul>
@@ -85,12 +85,12 @@ export const donsvivant = `
                                                       <!--DON DE SANG-->
       <section>
         <div>
-          <h4>Dons de sang, de plasma et de plaquettes</h4>
+          <h3>Dons de sang, de plasma et de plaquettes</h3>
           <img src="poche.png" alt="Illustration d'une poche médicale." />
-          <h4>Le don de sang</h4>
+          <h3>Le don de sang</h3>
         </div>
         <div>
-          <h5>Pourquoi donner son sang ?</h5>
+          <h4>Pourquoi donner son sang ?</h4>
           <p>
             Parce qu’à l’heure actuelle, aucun médicament ne peut se substituer au sang humain ou à ses composants.
             Le sang humain est donc toujours un produit irremplaçable.
@@ -120,7 +120,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>Les conditions pour donner son sang</h5>
+          <h4>Les conditions pour donner son sang</h4>
           <p>
             Toute personne :
             <ul>
@@ -136,7 +136,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>A qui donner, comment,...</h5>
+          <h4>A qui donner, comment,...</h4>
           <p>
             Vous pouvez vous rendre en collecte (sans rendez-vous sauf exception)
             ou sur un site de prélèvement fixe (sur rendez-vous).
@@ -163,10 +163,10 @@ export const donsvivant = `
                                                   <!--DON DE PLASMA-->
       <section>
         <div>
-          <h4>Le don de plasma</h4>
+          <h3>Le don de plasma</h3>
         </div>
         <div>
-          <h5>Pourquoi donner son plasma ?</h5>
+          <h4>Pourquoi donner son plasma ?</h4>
           <p>
             Certains médicaments ne peuvent être fabriqués qu’à partir du plasma humain
             et sont indispensables à la survie et au mieux-être de nombreux patients.
@@ -188,7 +188,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>Les conditions pour donner</h5>
+          <h4>Les conditions pour donner</h4>
           <p>
             Toute personne :
             <ul>
@@ -206,7 +206,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>A qui donner, comment,...</h5>
+          <h4>A qui donner, comment,...</h4>
           <p>
             Le sang prélevé au donneur passe en continu dans une machine d’aphérèse qui retient le plasma mais lui rend les globules rouges,
             les plaquettes et les globules blancs. De cette manière, une plus grande quantité de plasma peut être prélevée (entre 600 et 650 ml) et le donneur, qui ne perd pas d’autres composants sanguins,
@@ -217,10 +217,10 @@ export const donsvivant = `
                                                             <!--DON DE PLAQUETTES-->
         <section>
         <div>
-          <h4>Le don de plaquettes</h4>
+          <h3>Le don de plaquettes</h3>
         </div>
         <div>
-          <h5>Pourquoi donner ses plaquettes ?</h5>
+          <h4>Pourquoi donner ses plaquettes ?</h4>
           <p>
             Les plaquettes « thrombocytes » sont produites dans la moelle osseuse et jouent un rôle primordial dans la prévention ou l’arrêt des saignements. Elles s’agglutinent, forment un caillot et permettent de stopper les hémorragies.
             Les plaquettes peuvent être obtenues à partir d’un don de sang total ou par cytaphérèse. L’avantage de la cytaphérèse est qu’elle nous permet de récolter, en un seul don, autant de plaquettes que 5 à 10 dons de sang.
@@ -231,7 +231,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h5>Les conditions pour donner ses plaquettes</h5>
+          <h4>Les conditions pour donner ses plaquettes</h4>
           <p>
             Toute personne :
             <ul>

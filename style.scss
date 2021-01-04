@@ -2,14 +2,15 @@
 // @import "node_modules/bootstrap/scss/bootstrap";
 //----------------IMPORT--------------------------
 //import le fichier _donsvivant.scss
+@import "./styles/fonts/font";
+@import "./styles/variables";
 @import "./styles/donsvivant";
 @import "./styles/donsmort";
 @import "./styles/actualites";
 @import "./styles/quisommesnous";
 @import "./styles/nav";
 @import "./styles/footer";
-@import "./styles/fontFamily";
-/*@import "./styles/contact";*/
+@import "./styles/contact";
 
 img {
   height: 300px;
@@ -18,91 +19,15 @@ img {
 
 html,
 body {
-  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
-  // font-family: $fontfamily;
 }
 
 //CSS RESTE DU SITE ------------------------------------------------
 
-footer {
-  background-image: url("static/illuQuiSommeNous1.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 59%;
-  height: 34%;
-}
-
-/*
---Couleurs--
- #6B2775 : mauve foncé
- #086375 : turquoise foncé
- #1DDBB0 : turquoise clair
- #AFFC41 : Lime (citron vert)
- #B2FF9E : Vert clair 
-*/
-
-* {
-  // font-family: $fontfamily;
-}
-nav {
-  height: 100%;
-}
-header {
-  text-align: center;
-  padding: 0.5rem 0 5rem;
-  font-size: 1.25rem;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline-flex;
-}
-
-a {
-  position: relative;
-  padding: 1rem 0 0.5rem;
-  margin: 0 1.5rem;
-
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.nav-link::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  transform: translateX(-50%) scaleX(0);
-  transform-origin: 50% 50%;
-  width: 100%;
-  height: 1px;
-  background-color: #6b2775;
-  color: #086375;
-  transition: transform 500ms;
-}
-.nav-link:hover::after {
-  transform: translateX(-50%) scaleX(1);
-}
-
 /*# sourceMappingURL=style.css.map */
 /*------------------------------------------------------------------------*/
-
-.nav-link {
-  color: #6b2775;
-}
-
-.navbar-brand {
-  color: #6b2775;
-  margin: 16px;
-}
 
 #nomSite {
   margin-top: 17px;
@@ -114,7 +39,7 @@ a {
   width: 80px;
 }
 
-footer {
+/*footer {
   display: flex;
 }
 footer > div > p {
@@ -135,4 +60,4 @@ footer > div > img {
 
 .aFooter:hover {
   transform: none !important;
-}
+}*/

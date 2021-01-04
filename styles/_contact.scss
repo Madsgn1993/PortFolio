@@ -1,29 +1,19 @@
-#section_contact{
-    /* dependencies */
+/* dependencies */
 @import "@fortawesome/fontawesome-free/css/all.css";
 @import "leaflet/dist/leaflet.css";
 @import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 
-
 /* local imports */
-/*@import "./styles/variables";
-@import "./styles/fonts";
-@import "./styles/base";
+@import "./styles/_variables";
 @import "./styles/_leaflet";
-@import "./style.css";*/
 
-*{
+* {
   box-sizing: border-box;
-  font-family: $main-font;
-
-}
-header {
-  background-color: $primary-color;
-}
-h1{
-  color: $darkturquoise !important;
 }
 
+h1 {
+  color: $secondary_color !important;
+}
 a {
   color: white;
   text-decoration: none;
@@ -34,110 +24,147 @@ a {
 /****************************************************************
 //CARTE-MAP 
 ***************************************************************/
-
-#map{
+#map {
   height: 300px;
-  margin:auto;
+  margin: auto;
   z-index: 1;
 }
-
 /***************************************************************
 //LOGO: MAINS ou COEUR: TBD
 ****************************************************************/
-
-.logo{
-  display:flex;
-  position:relative;
+.logo {
+  display: flex;
+  position: relative;
   z-index: 2;
-  width:220px;
-  height:220px;
-  background-image: url(./static/images/mains.png);
-  margin:auto;
+  width: 220px;
+  height: 220px;
+  background-image: url("static/mains.png");
+  margin: auto;
   border-radius: 50%;
-  border:25px solid $lightturquoise;
-  border-color: rgba(19,232,242,0.7);
-  margin-top:-100px;
-  background-color:whitesmoke;
+  border: 25px solid $thirdary_color;
+  border-color: rgba(19, 232, 242, 0.7);
+  margin-top: -100px;
+  background-color: whitesmoke;
   text-align: center;
-  box-shadow:10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey;
 }
 /****************************************************
 //BAS DE PAGE: PARTIE INFOS - GRAND/PETIT ? TBD
 *****************************************************/
-.infos-container{
+.infos-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: baseline;
-  width:100%;
-  height:500px;
-  padding-top:200px;
+  width: 100%;
+  height: 500px;
+  padding-top: 200px;
   z-index: 1;
-  margin-top:-150px;
-  color: $darkturquoise;
+  margin-top: -150px;
+  color: $secondary_color;
   font-size: small;
-  background-color: $primary-color;
-  
-  
+  background-color: white;
 
   .uno,
   .dos,
   .tres,
-  .quatro{
-    margin-top:70px;
-    display:flex;
-    color:#086375;
+  .quatro {
+    margin-top: 70px;
+    display: flex;
+    color: $secondary_color;
     width: 200px;
     height: 200px;
-    background-color:$lightturquoise;
+    background-color: $secondary_color;
     border-radius: 25%;
-    padding-left:30px;
+    padding-left: 30px;
     line-height: 2px;
-    margin:auto;
-    box-shadow:10px 10px 5px grey;
+    margin: auto;
+    box-shadow: 10px 10px 5px grey;
+  }
+  .uno {
+    padding-left: 35px;
+  }
+  .dos {
+    padding-left: 10px;
   }
 
-.uno{
-    padding-left:35px;
-  }
-
-.dos{
-    padding-left:10px;
-  }
-
-
-  // } 
-.text{
+  // }
+  .text {
     text-align: center center;
   }
 }
-
-.icon{
+.icon {
   font-size: large;
   .fas,
-  .fad{ 
-  width:50px;
-  height: 50px;  
-  margin-top: 25px;
-  padding:10px 10px 10px 10px;
-  align-self: center;
-  align-content: center;
-  text-align: center center;
-  justify-items: center center;
-  justify-content: center center;
-  background-color: $lime;
-  border-radius:12px;
-  color:$darkturquoise;
-  border:1px solid $darkturquoise;
-  // font-size: 28px;
-  
-
+  .fad {
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    padding: 10px 10px 10px 10px;
+    align-self: center;
+    align-content: center;
+    text-align: center center;
+    justify-items: center center;
+    justify-content: center center;
+    background-color: $fourth_color;
+    border-radius: 12px;
+    color: $secondary_color;
+    border: 1px solid $secondary_color;
+    // font-size: 28px;
+  }
 }
-}
-
 /****************************************************
-//BAS DE PAGE: Comment le faire GRAND/PETIT ? TBD
+//BAS DE PAGE: FOOOTER Comment le faire GRAND/PETIT ? TBD
 *****************************************************/
+nav {
+  height: 80px;
+  ul {
+    li {
+      a:hover {
+      }
+    }
+  }
+}
+header {
+  text-align: center;
+  padding: 0;
+  font-size: 1.25rem;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline-flex;
 
+  a {
+    position: relative;
+    padding: 1rem 0 0.5rem;
+    margin: 0 1.5rem;
+    color: $primary_color;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) scaleX(0);
+      transform-origin: 50% 50%;
+      width: 100%;
+      height: 1px;
+      background-color: $secondary_color;
+      box-shadow: 9px 7px 17px 2px $primary_color;
+      transition: transform 450ms;
+    }
+
+    &:hover {
+      &::after {
+        transform: translateX(-50%) scaleX(1);
+      }
+    }
+  }
 }
