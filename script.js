@@ -6,6 +6,7 @@ import { actualites } from './view/actualites';
 import { quisommesnous } from './view/quisommenous';
 import { contact } from './view/contact';
 import { nav } from './view/nav';
+import { footer } from './view/footer';
 
 // import $ from 'jquery';
 
@@ -31,6 +32,8 @@ function tournerLaCarte(e) {
   }
 }
 const main = document.querySelector('main');
+const body = document.querySelector('body');
+
 const header_nav = document.querySelector('header');
 header_nav.innerHTML = nav;
 
@@ -39,6 +42,8 @@ const link_donsmort = document.getElementById('link_donsmort');
 const link_actualite = document.getElementById('link_actualite');
 const link_quisommenous = document.getElementById('link_quisommenous');
 const link_contact = document.getElementById('link_contact');
+// insertAdjencent => nouvelle methode qui rend la fonction plus rapide et directe que innerHTML.
+body.insertAdjacentHTML('beforeend', footer);
 
 link_donsvivant.addEventListener('click', function (e) {
   //  e.preventDefault(); => Empecher le comportement par defaut du lien

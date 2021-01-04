@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Playfair";
+  src: url(/styles/fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf)
+    format("ttf");
+  font-family: "Playfair-italic";
+  src: url(/styles/fonts/PlayfairDisplay-VariableFont_wght.ttf) format("ttf");
+}

@@ -1,12 +1,18 @@
 #section_donsvivant {
+  font-family: "Playfair";
   width: 80%;
   height: 100%;
   margin: 5%;
 
   section {
+    text-align: justify;
+    img {
+      margin: 0 50% 0 50%;
+    }
     div {
       text-align: justify;
     }
+
     a:link {
       text-decoration: none;
       padding: 0;
