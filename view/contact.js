@@ -1,8 +1,10 @@
 export const contact = `
   <div id="section_contact">
-      <main>
+
         <!-- SECTION MAP -->
-        <section id="map">Carte</section>
+        <section id="section_map">Carte
+          <div id="map"></div>
+        </section>
         <!-- SECTION LOGO -->
         <section class="bordure">
           <section class="logo">
@@ -70,13 +72,13 @@ export const contact = `
             </div>
           </div>
         </section>
-      </main>
+  
       <hr />
    
       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
       <script src="script.js"></script>
     </body>
-  </html>
+
 
   </div>
     `;

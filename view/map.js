@@ -8,6 +8,7 @@ import { FontAwesomeMarker } from './src/leaflet-helpers/leaflet-fa-icons';
 // ******************************************************
 // CREER LA MAP
 // ******************************************************
+const section_map = document.getElementById('section_map');
 
 const bruxelles = {
   latitude: '50.850340',
@@ -75,6 +76,8 @@ for (const hospital of hospitals) {
 }
 const hospitalsLayerGroup = L.layerGroup(hospitalsMarkerGroup);
 map.addLayer(hospitalsLayerGroup);
+
+section_map.insertAdjacentElement('afterbegin', map);
 
 // const main = document.querySelector('main');
 
