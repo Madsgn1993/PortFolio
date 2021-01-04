@@ -12,16 +12,14 @@
 @import "./styles/_leaflet";
 @import "./style.css";*/
 
-*{
+html{
   box-sizing: border-box;
-  font-family: $main-font;
-
-}
+  }
 header {
   background-color: $primary-color;
 }
 h1{
-  color: $darkturquoise !important;
+  color: $secondary_color !important;
 }
 
 a {

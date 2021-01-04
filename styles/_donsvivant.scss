@@ -1,46 +1,24 @@
-#section_donsvivant{
+#section_donsvivant {
+  width: 80%;
+  height: 100%;
+  margin: 5%;
 
-    width: 80%;
-    height: 100%;
-    margin: 5%;
-   
-    section{
-        
-        div{
-
-            text-align: justify;
-
-
-        }
-
-        a:link{
-
-            text-decoration: none;
-            padding:0;
-            color: inherit;
-            margin: 0;
-            text-transform: initial;
-        
-    
-    
-    
-        }
-        ul{
-
-            margin: 60px;
-
-    
-    
-        }
-
+  section {
+    div {
+      text-align: justify;
     }
-    h2{
-
-        text-align: center;
-
-
+    a:link {
+      text-decoration: none;
+      padding: 0;
+      color: inherit;
+      margin: 0;
+      text-transform: initial;
     }
-    
-   
-
+    ul {
+      margin: 60px;
+    }
+  }
+  h2 {
+    text-align: center;
+  }
 }
