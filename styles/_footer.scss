@@ -1,48 +1,188 @@
 /****************************************************
 //BAS DE PAGE: FOOTER: Comment le faire GRAND/PETIT ? TBD
 *****************************************************/
-#section_footer {
-  .footer {
-    display: flex;
-    height: 300px;
-    width: 100%;
-    .presentation {
-      width: 40%;
-      display: inline;
-      flex-direction: column;
-      font-size: medium;
-    }
-    .footer-nav,
-    .others {
-      display: inline;
-      flex-direction: column;
-      font-size: small;
-      width: 30%;
-      text-align: left;
-    }
-    .footer-footer > li > a {
-      font-size: 9px;
-    }
-    .RS > div {
-      width: 75px;
-      height: 75px;
-      display: flex;
-      flex-direction: row;
-      border: 1px solid gray;
-      border-radius: 50%;
-      justify-content: space-between;
-      align-items: center;
-      text-align: center;
-      left: 50%;
+footer {
+  background-image: url("./static/illuQuiSommeNous1.png");
+  background-size: 35%;
+  height: 28%;
+  background-repeat: no-repeat;
+  background-position-y: 75%;
+  background-position-x: right;
+  nav {
+    height: 80px;
+    ul {
+      li {
+        a:hover {
+        }
+      }
     }
   }
+  /*header {
+    text-align: center;
+    padding: 0;
+    font-size: 1.25rem;
+  }*/
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
-  .mini-footer {
-    width: 100%;
+    li {
+      display: inline-flex;
+
+      a {
+        position: relative;
+        padding: 1rem 0 0.5rem;
+        margin: 0 1.5rem;
+        color: $primary_color;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          transform: translateX(-50%) scaleX(0);
+          transform-origin: 50% 50%;
+          width: 100%;
+          height: 1px;
+          background-color: $secondary_color;
+          box-shadow: 9px 7px 17px 2px $primary_color;
+          transition: transform 450ms;
+        }
+
+        &:hover {
+          &::after {
+            transform: translateX(-50%) scaleX(1);
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  .presentation {
+    width: 30%;
+    display: inline;
+    flex-direction: column;
+    font-size: medium;
+    text-align: center;
+  }
+  .footer-nav,
+  .others {
+    display: inline;
+    flex-direction: column;
+    font-size: small;
+    width: 35%;
+    // text-align: left;
+    text-align: center;
+    align-content: center;
+  }
+  .others {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    .site {
+      margin: auto;
+    }
+  }
+  .footer-footer {
+    justify-content: center;
+  }
+  .footer-footer > li > a {
+    font-size: 9px;
+  }
+  .RS {
+    margin-top: 100px;
     display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .RS > div {
+    width: 75px;
+    height: 75px;
+    display: flex-inline;
     flex-direction: row;
-    a {
-      color: black;
+    border: 2px solid $primary_color;
+    border-radius: 35%;
+    box-shadow: 5px 5px 2px cadetblue;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    left: 50%;
+  }
+}
+.partenaires {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  opacity: 0.7;
+  .partenaires:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .uza {
+    width: 227px;
+    height: 100px;
+    .uza:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+  .erasme {
+    width: 148px;
+    height: 148px;
+    .erasme:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+  .hopitaux {
+    width: 260px;
+    height: 135px;
+  }
+  .uzleuven {
+    width: 184px;
+    height: 194px;
+    .uzleuven:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+  .chuliege {
+    width: 227px;
+    height: 100px;
+    .chuliege:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+}
+.mini-footer {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  #mini-heart {
+    width: 20px;
+    height: 20px;
+  }
+  a {
+    color: $secondary_color;
+    // text-decoration: underline;
+    font-size: xx-small;
+    a:hover {
+      color: $primary_color;
+      text-decoration: $secondary_color;
     }
   }
 }
