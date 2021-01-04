@@ -1,11 +1,11 @@
 export const contact = `
   <div id="section_contact">
 
-        <!-- SECTION MAP -->
+        <!--------- SECTION MAP----------------------->
         <section id="section_map">Carte
           <div id="map"></div>
         </section>
-        <!-- SECTION LOGO -->
+        <!-------------------- SECTION LOGO -------------------->
         <section class="bordure">
           <section class="logo">
             <div class="ics"></div>
@@ -13,9 +13,8 @@ export const contact = `
           </section>
         </section>
         <br />
-        <!-- SECTION INFOS -->
-        <span
-          >Vous trouverez ci-dessus une map qui reprend les adresses de nos
+        <!--------------------- SECTION INFOS----------------------->
+        <span>Vous trouverez ci-dessus une map qui reprend les        adresses de nos
           partenaires (hôpitaux) et de nos locaux. Pour toute autre information,
           n'hésitez pas à prendre contact avec nous.
         </span>

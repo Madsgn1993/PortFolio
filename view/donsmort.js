@@ -12,7 +12,7 @@ export const donsmort = `
       <h2>Prélèvement </h2>
       <p>Il peut s’opérer sur toutes personnes quel que soit son âge, en état de mort cérébrale. Elle doit être constatée par 3 médecins indépendants de l’équipe de prélèvement et de transplantation. La suture du corps doit être effectuée dans le respect de la dépouille mortelle et en ménageant les sentiments de la famille. La mise en bière se fait dans les plus brefs délais afin de permettre à la famille de rendre ses derniers adieux au défunt. L’identité du donneur et celle du receveur ne peuvent être communiquées</p>
 
-      <h2>Oppositio</h2>
+      <h2>Opposition</h2>
       <p>+ 18 ans : Si la personne est capable de manifester sa volonté, peut seul exprimer son opposition. -18ans : Si la personne est capable de manifester sa volonté, l’opposition peut-être exprimée soit par cette personne, soit aussi par des proches vivant en commun avec elle. Si la personne n’est pas en mesure de manifester sa volonté en raison de son état mental, l’opposition peut être exprimée de son vivant par son représentant légal. Si une personne n'est pas en mesure de manifester sa volonté en raison de son état mental, l'opposition peut être exprimée, pour autant qu'elle soit en vie, par son représentant légal, par son administrateur provisoire ou à leur défaut par son plus proche parent. Le médecin ne peut donc procéder au prélèvement lorsqu’une personne a enregistré son opposition ou lorsqu’un proche lui a communiqué son opposition.</p>
 
       <h2>L’opposition n’est pas une solution</h2>
@@ -34,6 +34,7 @@ export const donsmort = `
       <p>le prélèvement n’est effectué que si le Procureur du Roi a été informé et ne s’y est pas opposé. Ce dernier peut envoyer un médecin sur place pendant le prélèvement.Avant de prélever, le médecin doit s’assurer qu’aucune opposition n’a été exprimée par le donneur selon n’importe quel mode. Le médecin n’a donc pas d’autres choix que d’informer les proches du prélèvement envisagé de manière à ce qu’ils puissent communiquer l’existence d’une éventuelle opposition exprimée par le défunt de son vivant</p>
 
       <h2>Don de poumon</h2>
+      <img src="poumon.png" alt="illustration poumon"/>
       <p>Dans le cas d'une greffe avec donneur en état de mort cérébrale prélèvement et greffes sont réalisées par deux équipes différentes en des lieux différents.Habituellement, l'ensemble coeur-poumons est prélevé chirurgicalement chez le donneur, au bloc opératoire.Ensuite, coeur et poumons sont éventuellement séparés pour être proposés à des malades différents. Les organes sont soigneusement examinés pour vérifier l'absence de lésions. Entre 80 et 85 % des poumons ne peuvent être greffés car ils sont le siège d'un oedème ou d'une infection, ce qui explique en partie l'insuffisance de greffons pulmonaires</p>
 
       <h2>La greffe bipulmonaire</h2>
@@ -43,6 +44,8 @@ export const donsmort = `
       <p>Un seul poumon est remplacé, l'autre étant laissé en place. La circulation extracorporelle n'est généralement pas nécessaire</p>
 
       <h2>La greffe cœur-poumons</h2>
+      <img src="coeur.png" alt="illustration poumon"/>
+      
       <p>L'ensemble cœur-poumons est greffé. Dans ce cas, la circulation extracorporelle est bien sûr indispensable. La préparation du receveur comprend d'abord l'ablation du cœur, puis celle des poumons. Ensuite les poumons sont mis en place dans le thorax et la trachée est suturée à celle du receveur. Le coeur est suturé comme dans le cas d'une transplantation cardiaque</p>
 
       <h2>L'intervention dure 6 à 8 heures. Trois types de greffes peuvent être réalisés :

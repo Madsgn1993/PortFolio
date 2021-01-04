@@ -11,7 +11,7 @@ export const donsvivant = `
         <img src="torse.png" alt="Illustration représentant un torse avec un coeur cousu."/>
       </section>
                                                     <!--DONS CHEVEUX-->
-      <section>
+      <section id="section_dons_cheveux">
         <div>
           <h3>Dons de cheveux</h3>
           <img src="tresse.png" alt="Illustration d'une tresse de cheveux."/>
@@ -83,7 +83,7 @@ export const donsvivant = `
         </div>
       </section>
                                                       <!--DON DE SANG-->
-      <section>
+      <section id="section_don_de_sang">
         <div>
           <h3>Dons de sang, de plasma et de plaquettes</h3>
           <img src="poche.png" alt="Illustration d'une poche médicale." />
@@ -161,7 +161,7 @@ export const donsvivant = `
         </div>
       </section>
                                                   <!--DON DE PLASMA-->
-      <section>
+      <section id="section_don_plasma">
         <div>
           <h3>Le don de plasma</h3>
         </div>
@@ -215,7 +215,7 @@ export const donsvivant = `
         </div>
       </section>
                                                             <!--DON DE PLAQUETTES-->
-        <section>
+      <section id="section_dons_plaquette">
         <div>
           <h3>Le don de plaquettes</h3>
         </div>

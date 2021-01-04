@@ -20,8 +20,10 @@ img {
 html,
 body {
   width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Playfair Display";
 }
 
 //CSS RESTE DU SITE ------------------------------------------------
@@ -38,26 +40,3 @@ body {
   height: 80px;
   width: 80px;
 }
-
-/*footer {
-  display: flex;
-}
-footer > div > p {
-  color: #6b2775;
-  font-weight: bold;
-}
-
-footer > div > img {
-  height: 80px;
-  width: auto;
-}
-
-.aFooter {
-  text-decoration: none !important;
-  text-transform: uppercase;
-  color: #6b2775 !important;
-}
-
-.aFooter:hover {
-  transform: none !important;
-}*/
