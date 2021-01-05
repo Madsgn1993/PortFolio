@@ -1,11 +1,11 @@
 export const actualites = `
     <div id="section_actualites">
       <h1>Actualités</h1>
-      <p>Phrase d'accroche du style "ici retrouver les actu"</p>
+      <p>Retrouvez ici, toutes les actualités concernant les dons !</p>
       <article>
         <h3>Les prochaines collectes de sang en Wallonie !</h3>
         <div>
-          <img src="../static/poche.png" alt="Illustration d'une poche de sang">
+          <img src="poche.png" alt="Illustration d'une poche de sang">
         </div>
         <p>
           <ul>
@@ -32,29 +32,6 @@ export const actualites = `
           </ul>
         </p>
       </article>
-      <article>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium,
-        enim atque, quos aut dolorum expedita quis earum magni molestias
-        praesentium repudiandae voluptatum reprehenderit. Obcaecati
-        exercitationem reprehenderit veritatis nesciunt dolorum modi.
-      </article>
-      <article>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium,
-        enim atque, quos aut dolorum expedita quis earum magni molestias
-        praesentium repudiandae voluptatum reprehenderit. Obcaecati
-        exercitationem reprehenderit veritatis nesciunt dolorum modi.
-      </article>
-      <article>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium,
-        enim atque, quos aut dolorum expedita quis earum magni molestias
-        praesentium repudiandae voluptatum reprehenderit. Obcaecati
-        exercitationem reprehenderit veritatis nesciunt dolorum modi.
-      </article>
-      <article>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium,
-        enim atque, quos aut dolorum expedita quis earum magni molestias
-        praesentium repudiandae voluptatum reprehenderit. Obcaecati
-        exercitationem reprehenderit veritatis nesciunt dolorum modi.
-      </article>
+<hr/>
     </div>
     `;

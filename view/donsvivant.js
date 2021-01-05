@@ -1,23 +1,16 @@
 export const donsvivant = `
     <div id="section_donsvivant">
       <h1>Dons de votre vivant</h1>                               
-      <section>
-        <h3>Introduction</h3>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eum
-          ex dignissimos natus, sint veritatis quos ipsum. Pariatur eum tenetur
-          animi officia sunt ducimus, sit atque. Ab earum perferendis facilis.
-        </p>
-        <img src="torse.png" alt="Illustration représentant un torse avec un coeur cousu."/>
-      </section>
+
+    
                                                     <!--DONS CHEVEUX-->
       <section id="section_dons_cheveux">
         <div>
-          <h3>Dons de cheveux</h3>
+          <h2>Dons de cheveux</h2>
           <img src="tresse.png" alt="Illustration d'une tresse de cheveux."/>
         </div>
         <div>
-          <h4>Pourquoi donner ses cheveux ?</h4>
+          <h3>Pourquoi donner ses cheveux ?</h3>
           <p>
             Lorsque l'on entame une chimiothérapie (traitements médicamenteux
             contre le cancer), il y a de forte chance de perdre ses cheveux.
@@ -34,7 +27,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>Les conditions pour donner</h4>
+          <h3>Les conditions pour donner</h3>
           <p>
             La condition principale est que vos cheveux soient en bonne santé
             (naturels, gris ou colorés) et que votre queue de cheval fasse
@@ -44,7 +37,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>Les conditions pour recevoir</h4>
+          <h3>Les conditions pour recevoir</h3>
           <p>
             Pour demander une intervention du Fonds Coupe d'Éclat,
             vous devez prendre contact avec un(e) assistant(e) social(e)
@@ -59,7 +52,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>A qui donner, comment,... ?</h4>
+          <h3>A qui donner, comment,... ?</h3>
           <p>
             Trois solutions s’offrent à vous :
             <ul>
@@ -85,12 +78,12 @@ export const donsvivant = `
                                                       <!--DON DE SANG-->
       <section id="section_don_de_sang">
         <div>
-          <h3>Dons de sang, de plasma et de plaquettes</h3>
+          <h2>Dons de sang, de plasma et de plaquettes</h2>
           <img src="poche.png" alt="Illustration d'une poche médicale." />
-          <h3>Le don de sang</h3>
+          <h2>Le don de sang</h2>
         </div>
         <div>
-          <h4>Pourquoi donner son sang ?</h4>
+          <h3>Pourquoi donner son sang ?</h3>
           <p>
             Parce qu’à l’heure actuelle, aucun médicament ne peut se substituer au sang humain ou à ses composants.
             Le sang humain est donc toujours un produit irremplaçable.
@@ -120,7 +113,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>Les conditions pour donner son sang</h4>
+          <h3>Les conditions pour donner son sang</h3>
           <p>
             Toute personne :
             <ul>
@@ -136,7 +129,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>A qui donner, comment,...</h4>
+          <h3>A qui donner, comment,...</h3>
           <p>
             Vous pouvez vous rendre en collecte (sans rendez-vous sauf exception)
             ou sur un site de prélèvement fixe (sur rendez-vous).
@@ -163,10 +156,10 @@ export const donsvivant = `
                                                   <!--DON DE PLASMA-->
       <section id="section_don_plasma">
         <div>
-          <h3>Le don de plasma</h3>
+          <h2>Le don de plasma</h2>
         </div>
         <div>
-          <h4>Pourquoi donner son plasma ?</h4>
+          <h3>Pourquoi donner son plasma ?</h3>
           <p>
             Certains médicaments ne peuvent être fabriqués qu’à partir du plasma humain
             et sont indispensables à la survie et au mieux-être de nombreux patients.
@@ -188,7 +181,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>Les conditions pour donner</h4>
+          <h3>Les conditions pour donner</h3>
           <p>
             Toute personne :
             <ul>
@@ -206,7 +199,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>A qui donner, comment,...</h4>
+          <h3>A qui donner, comment,...</h3>
           <p>
             Le sang prélevé au donneur passe en continu dans une machine d’aphérèse qui retient le plasma mais lui rend les globules rouges,
             les plaquettes et les globules blancs. De cette manière, une plus grande quantité de plasma peut être prélevée (entre 600 et 650 ml) et le donneur, qui ne perd pas d’autres composants sanguins,
@@ -217,10 +210,10 @@ export const donsvivant = `
                                                             <!--DON DE PLAQUETTES-->
       <section id="section_dons_plaquette">
         <div>
-          <h3>Le don de plaquettes</h3>
+          <h2>Le don de plaquettes</h2>
         </div>
         <div>
-          <h4>Pourquoi donner ses plaquettes ?</h4>
+          <h3>Pourquoi donner ses plaquettes ?</h3>
           <p>
             Les plaquettes « thrombocytes » sont produites dans la moelle osseuse et jouent un rôle primordial dans la prévention ou l’arrêt des saignements. Elles s’agglutinent, forment un caillot et permettent de stopper les hémorragies.
             Les plaquettes peuvent être obtenues à partir d’un don de sang total ou par cytaphérèse. L’avantage de la cytaphérèse est qu’elle nous permet de récolter, en un seul don, autant de plaquettes que 5 à 10 dons de sang.
@@ -231,7 +224,7 @@ export const donsvivant = `
           </p>
         </div>
         <div>
-          <h4>Les conditions pour donner ses plaquettes</h4>
+          <h3>Les conditions pour donner ses plaquettes</h3>
           <p>
             Toute personne :
             <ul>
@@ -249,5 +242,6 @@ export const donsvivant = `
           </p>
         </div>
       </section>
+      <hr/>
     </div>
   `;

@@ -10,7 +10,7 @@ export const nav = `
         <li><a id="link_acceuil" href="#">Acceuil</a></li>
         <li><a id="link_donsvivant" href="#">Dons de votre Vivant</a></li>
         <li><a id="link_donsmort" href="#">Dons de votre Mort</a></li>
-        <li><a id="link_actualite" href="#">Actualité</a></li>
+        <li><a id="link_actualite" href="#">Actualités</a></li>
         <li><a id="link_quisommenous" href="#">Qui sommes nous? </a></li>
         <li><a id="link_contact" href="#">Contact</a></li>
     </ul>

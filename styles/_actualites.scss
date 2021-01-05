@@ -1,3 +1,20 @@
 #section_actualites{
-    
+    *{
+        box-sizing: border-box;
+        text-align: justify;
+        margin: 5%;
+    }
+    h1 {
+        color: $primary_color;
+      }
+      h2 {
+        color: $secondary_color;
+      }
+      h3{
+        color : $thirdary_color;
+      }
+      article{
+          text-align: center;
+          background-color: rgba($color:$fifth_color, $alpha: 0.5);
+      }
 }

@@ -78,6 +78,6 @@ export const contact = `
       <script src="script.js"></script>
     </body>
 
-
+<hr/>
   </div>
     `;

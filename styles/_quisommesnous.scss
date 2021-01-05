@@ -1,6 +1,9 @@
 #section_quisommesnous {
   //CSS CARTE PRESENTATION
   /* Pour ce qui est des propriétés du type perspective, transform, transition ou encore backface et selon les navigateurs Internet, il faut rajouter les préfixes correspondants: -webkit, -moz-, ms- ou -o*/
+  h1{
+    color: $primary_color;
+  }
   .flippingcard {
     position: relative;
     display: inline-block;
@@ -72,6 +75,7 @@
     border-radius: 5px;
     padding: 15px;
     box-shadow: 9px 7px 17px 2px $secondary_color;
+    font-size: smaller;
   }
   div[class^="card"] .face-back {
     background-color: #1ddbb0;
@@ -87,6 +91,7 @@
     transform: rotateY(0deg);
   }
   button {
+    font-family: "Playfair Display";
     margin-top: 60px;
     background-color: #6b2775;
     border-radius: 4px;
@@ -99,9 +104,9 @@
   }
 
   .face-back > p {
-    text-align: center;
+    text-align: justify;
     margin-top: 20%;
-    font-size: larger;
+    font-size: 16px;
   }
 
   #presentation {

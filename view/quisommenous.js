@@ -24,7 +24,7 @@ export const quisommesnous = `
                             <p>Face Avant</p>
                         </div>
                         <div class="face-back">
-                            <p>Dame Madisson, la plus jeune du groupe ( même de quelques mois, ça compte ! ) a réalisé les illustrations que vous pouvez voir sur notre site, réuni les datas et a construit la page “Qui sommes-nous” ...</p>
+                            <p>Dame Madisson, la plus jeune du groupe ( même de quelques mois, ça compte ! ) a réalisé toutes les illustrations que vous pouvez voir sur notre site, réuni les datas et a construit la page “Qui sommes-nous” ainsi que complété la page "dons de votre mort" ...</p>
                         </div>
                     </div>
                     <button id="btn_Mad">Description</button>
@@ -35,11 +35,12 @@ export const quisommesnous = `
                             <p>Face Avant</p>
                         </div>
                         <div class="face-back">
-                            <p>Dame Mélody, du haut de ces 27 ans ( bientôt 28 mais laissons lui le temps d'encaisser la nouvelle  ) s’est occupé de réunir les informations sur les dons, participé à la construction des structures des pages et à la gestion des données</p>
+                            <p>Dame Mélody, du haut de ces 27 ans ( bientôt 28 mais laissons lui le temps d'encaisser la nouvelle  ) s’est occupé de réunir les informations sur les dons, participé à la construction des structures des pages, à la gestion des données et à l'harmonisation du style du site. Ainsi que tout ce qui concernait Github</p>
                         </div>
                     </div>
                     <button id="btn">Description</button>
                 </div>
             </div>
+            <hr/>
     </div>
    `;
