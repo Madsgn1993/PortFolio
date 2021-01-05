@@ -5,10 +5,10 @@ export const footer = `
 
     <p>InCorporeSano</p>
     <div class="RS">
-      <div id="fb">FB</div>
-      <div>IG</div>
-      <div>TW</div>
-      <div>IN</div>
+      <div id="fb"></div>
+      <div id="ig"></div>
+      <div id="tw"></div>
+     
     </div>
   </div>
   <hr/>
@@ -60,7 +60,7 @@ export const footer = `
     </div>
   </div>
 </section>
-<hr />
+
 
 <section class="mini-footer">
   <div class="footer-footer">

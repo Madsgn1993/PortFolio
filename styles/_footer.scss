@@ -137,42 +137,6 @@ footer {
     width: 100%;
     margin: 10px;
   }
-  /*.uza {
-    width: 227px;
-    height: 100px;
-    .uza:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
-  }
-  .erasme {
-    width: 148px;
-    height: 148px;
-    .erasme:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
-  }
-  .hopitaux {
-    width: 260px;
-    height: 135px;
-  }
-  .uzleuven {
-    width: 184px;
-    height: 194px;
-    .uzleuven:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
-  }
-  .chuliege {
-    width: 227px;
-    height: 100px;
-    .chuliege:hover {
-      cursor: pointer;
-      opacity: 1;
-    }
-  }*/
 }
 .mini-footer {
   width: 100%;
@@ -195,4 +159,28 @@ footer {
       text-decoration: $secondary_color;
     }
   }
+}
+
+#fb {
+  background-image: url("./static/facebook.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $primary_color;
+}
+
+#ig {
+  background-image: url("./static/instagram.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $primary_color;
+}
+
+#tw {
+  background-image: url("./static/tweeter.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $primary_color;
 }
