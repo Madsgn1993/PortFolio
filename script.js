@@ -5,6 +5,7 @@ import { donsmort } from './view/donsmort';
 import { actualites } from './view/actualites';
 import { quisommesnous } from './view/quisommenous';
 import { contact } from './view/contact';
+import { excuteMap } from './view/map';
 import { nav } from './view/nav';
 import { footer } from './view/footer';
 
@@ -74,6 +75,7 @@ link_contact.addEventListener('click', function (e) {
   //  e.preventDefault(); => Empecher le comportement par defaut du lien
   e.preventDefault();
   main.innerHTML = contact;
+  excuteMap();
 });
 
 // Deleguation d elements

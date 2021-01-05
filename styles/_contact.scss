@@ -7,28 +7,29 @@
 @import "./styles/_variables";
 @import "./styles/_leaflet";
 
-#section_contact{
-* {
-  box-sizing: border-box;
-}
-
-h1 {
-  color: $secondary_color !important;
-}
-a {
-  color: white;
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
+#section_contact {
+  * {
+    box-sizing: border-box;
   }
-}
-/****************************************************************
-//CARTE-MAP 
-***************************************************************/
-#map {
-  height: 300px;
-  margin: auto;
-  z-index: 1;
+
+  h1 {
+    color: $secondary_color !important;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  /****************************************************************
+  //CARTE-MAP 
+  ***************************************************************/
+  #map {
+    height: 300px;
+    margin: auto;
+    z-index: 1;
+  }
 }
 /***************************************************************
 //LOGO: MAINS ou COEUR: TBD

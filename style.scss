@@ -1,4 +1,6 @@
-// @import "@fortawesome/fontawesome-free/css/all.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 // @import "node_modules/bootstrap/scss/bootstrap";
 //----------------IMPORT--------------------------
 //import le fichier _donsvivant.scss
@@ -10,8 +12,7 @@
 @import "./styles/quisommesnous";
 @import "./styles/nav";
 @import "./styles/footer";
-/*@import "./styles/contact";*/
-
+@import "./styles/contact";
 
 img {
   height: 300px;

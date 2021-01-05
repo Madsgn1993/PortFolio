@@ -32,6 +32,6 @@ export const actualites = `
           </ul>
         </p>
       </article>
-<hr/>
+
     </div>
     `;
