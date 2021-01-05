@@ -20,11 +20,22 @@
       margin: 0;
       text-transform: initial;
     }
-    ul {
+    /*ul {
       margin: 60px;
-    }
+    }*/
   }
   h2 {
     text-align: center;
+  }
+}
+
+#section_dons_cheveux {
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: disc !important;
+    }
   }
 }

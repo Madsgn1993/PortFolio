@@ -1,9 +1,9 @@
 export const footer = `
 <div class="footer">
         <div class="presentation">
-          ICS
-          <br />
-          InCorporeSano
+          <p>ICS</p>
+    
+          <p>InCorporeSano</p>
           <div class="RS">
             <div>FB</div>
             <div>IG</div>
@@ -11,10 +11,11 @@ export const footer = `
             <div>IN</div>
           </div>
         </div>
+        <hr/>
         <div class="footer-nav">
           <nav>
             <ul>
-              <li><a href="#">Dons de votre Vivant</a></li>
+              <li><a href="#">Dons de votre Vivant</a></li><br/>
               <li><a href="#">Dons de votre Mort</a></li>
               <br />
               <li><a href="#">Actualité</a></li>
@@ -30,9 +31,7 @@ export const footer = `
           <ul class="site">
             <li><a href="#">Communiqué de presse</a></li>
             <br />
-            <li ><a href="#">à propos de site</a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li ><a href="#">à propos du site</a></li>
           </ul>
         </div>
       </div>

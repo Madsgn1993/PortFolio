@@ -33,6 +33,8 @@ function tournerLaCarte(e) {
 }
 const main = document.querySelector('main');
 const body = document.querySelector('body');
+const cont_footer = document.querySelector('footer');
+cont_footer.innerHTML = footer;
 
 const header_nav = document.querySelector('header');
 header_nav.innerHTML = nav;
@@ -43,7 +45,6 @@ const link_actualite = document.getElementById('link_actualite');
 const link_quisommenous = document.getElementById('link_quisommenous');
 const link_contact = document.getElementById('link_contact');
 // insertAdjencent => nouvelle methode qui rend la fonction plus rapide et directe que innerHTML.
-body.insertAdjacentHTML('beforeend', footer);
 
 link_donsvivant.addEventListener('click', function (e) {
   //  e.preventDefault(); => Empecher le comportement par defaut du lien
