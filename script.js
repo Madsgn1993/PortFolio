@@ -8,6 +8,8 @@ import { contact } from './view/contact';
 import { excuteMap } from './view/map';
 import { nav } from './view/nav';
 import { footer } from './view/footer';
+import { accueil } from './view/accueil';
+import { reloadSlider } from './view/slide';
 
 // import $ from 'jquery';
 
@@ -39,13 +41,23 @@ cont_footer.innerHTML = footer;
 
 const header_nav = document.querySelector('header');
 header_nav.innerHTML = nav;
+main.innerHTML = accueil;
+reloadSlider();
 
+const link_acceuil = document.getElementById('link_acceuil');
 const link_donsvivant = document.getElementById('link_donsvivant');
 const link_donsmort = document.getElementById('link_donsmort');
 const link_actualite = document.getElementById('link_actualite');
 const link_quisommenous = document.getElementById('link_quisommenous');
 const link_contact = document.getElementById('link_contact');
 // insertAdjencent => nouvelle methode qui rend la fonction plus rapide et directe que innerHTML.
+
+link_acceuil.addEventListener('click', function (e) {
+  //  e.preventDefault(); => Empecher le comportement par defaut du lien
+  e.preventDefault();
+  main.innerHTML = accueil;
+  reloadSlider();
+});
 
 link_donsvivant.addEventListener('click', function (e) {
   //  e.preventDefault(); => Empecher le comportement par defaut du lien
