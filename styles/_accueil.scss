@@ -56,21 +56,24 @@
 
   .my-slider {
     //   justify-content: space-around;
+    height: 350px;
     .tns-slide-active img {
-      width: 380px !important;
-      height: 380px !important;
+      width: 350px !important;
+      height: 350px !important;
+      z-index: 1;
       transition: all 1s;
     }
     .tns-slide-active ~ .tns-slide-active {
       img {
-        width: 250px !important;
-        height: 250px !important;
+        width: 280px !important;
+        height: 280px !important;
         transition: all 1s;
+        background-color: rgba($color: #b2ff9e, $alpha: 0.5);
       }
     }
     .slider-img {
-      width: 250px;
-      height: 250px;
+      width: 230px;
+      height: 230px;
       transition: all 1s;
     }
   }

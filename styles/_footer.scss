@@ -2,7 +2,8 @@
 //BAS DE PAGE: FOOTER: Comment le faire GRAND/PETIT ? TBD
 *****************************************************/
 footer {
-  position: sticky;
+  position: static;
+  z-index: -2;
   h5 {
     color: $primary_color;
     text-align: center;

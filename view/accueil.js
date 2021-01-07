@@ -26,8 +26,9 @@ export const accueil = `
   <!-- SECTION SLIDER -->
 
   <div class="my-slider">
+
     <div class="blank" id="tresse">
-       <img class="img " id="cheveux" src="tresse.png" />
+       <img class="img " id="cheveux" src="tresseversion2.png" />
     </div>
 
     <div class="blank">
@@ -43,77 +44,21 @@ export const accueil = `
     </div>
 
 
-
-    <div class="blank" id="tresse2">
-      <img class="img test" id="poche" src="poche.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id="rein" src="reins.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id=" poumon" src="poumon.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id="coeur" src="coeur.png" />
-    </div>
-
-
-
-    <div class="blank" id="tresse3">
-      <img class="img" id="rein" src="reins.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id=" poumon" src="poumon.png" />
-    </div>
-
     <div class="blank">
       <img class="img" id="coeur" src="coeur.png" />
     </div>
 
     <div class="blank">
-      <img class="img" id="torse" src="torse.png" />
-    </div>
-
-
-
-
-    <div class="blank" id="tresse4">
-      <img class="img" id="poumon" src="poumon.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id="coeur" src="coeur.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id="torse" src="torse.png" />
+      <img class="img" id="oeuil" src="oeuil.png" />
       <div class="kidney"></div>
     </div>
 
     <div class="blank">
-      <img class="img" id="torse" src="torse.png" />
-    </div>
-
-
-
-    <div class="blank" id="tresse5">
-      <img class="img" id="coeur" src="coeur.png" />
+      <img class="img" id="ovule" src="ovule.png" />
     </div>
 
     <div class="blank">
-     <img class="img" id="torse" src="torse.png" />
-    </div>
-
-    <div class="blank">
-      <img class="img" id="torse" src="torse.png" />
-    </div>
-
-    <div class="blank">
-     <img class="img" id="torse" src="mains.png" />
+     <img class="img" id="uterus" src="uterus.png" />
     </div>
   </div>
 

@@ -3,7 +3,7 @@ import { tns } from '../node_modules/tiny-slider/src/tiny-slider';
 export function reloadSlider() {
   const slider = tns({
     container: '.my-slider',
-    items: 4,
+    items: 6,
     slideBy: 1,
     speed: 2000,
     autoplay: true,
