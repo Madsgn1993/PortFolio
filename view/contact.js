@@ -14,10 +14,10 @@ export const contact = `
         </section>
         <br />
         <!--------------------- SECTION INFOS----------------------->
-        <span>Vous trouverez ci-dessus une map qui reprend les        adresses de nos
+        <div id="text">Vous trouverez ci-dessus une map qui reprend les adresses de nos
           partenaires (hôpitaux) et de nos locaux. Pour toute autre information,
           n'hésitez pas à prendre contact avec nous.
-        </span>
+        </div >
         <section class="infos-container">
           <div class="uno">
             <div class="phone">
