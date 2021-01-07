@@ -1,7 +1,7 @@
 export const footer = `
 <div class="footer">
   <div class="presentation">
-    <p>ICS</p>
+    <p><strong>ICS</strong></p>
 
     <p>In Corpore Sano</p>
     <div class="RS">
