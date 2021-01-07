@@ -1,12 +1,18 @@
-#section_donsmort{
-    h1 {
-        color: $primary_color;
-      }
-      h2 {
-        color: $secondary_color;
-      }
-      h3{
-        color : $thirdary_color;
-      }
-      margin : 5%;
+#section_donsmort {
+  h1 {
+    color: $primary_color;
+  }
+  h2 {
+    color: $secondary_color;
+  }
+  h3 {
+    color: $thirdary_color;
+  }
+  margin: 5%;
 }
+/*#coeurIllu {
+  height: 200px;
+  width: 200px;
+}
+class="float_left"
+class="float_right"*/

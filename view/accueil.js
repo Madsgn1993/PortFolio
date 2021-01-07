@@ -20,7 +20,7 @@ export const accueil = `
       </div>
     </div>
     <br />
-    <div class="mini-intro">Cliquer pour plus amples informations</div>
+    
   </div>
 
   <!-- SECTION SLIDER -->

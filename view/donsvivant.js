@@ -5,12 +5,13 @@ export const donsvivant = `
     
                                                     <!--DONS CHEVEUX-->
       <section id="section_dons_cheveux">
-        <div>
+        
           <h2>Dons de cheveux</h2>
-          <img src="tresse.png" alt="Illustration d'une tresse de cheveux."/>
-        </div>
+        
         <div>
+          <img class="float_left" src="tresseversion2.png" alt="Illustration d'une tresse de cheveux."/>
           <h3>Pourquoi donner ses cheveux ?</h3>
+          
           <p>
             Lorsque l'on entame une chimiothérapie (traitements médicamenteux
             contre le cancer), il y a de forte chance de perdre ses cheveux.
@@ -79,10 +80,11 @@ export const donsvivant = `
       <section id="section_don_de_sang">
         <div>
           <h2>Dons de sang, de plasma et de plaquettes</h2>
-          <img src="poche.png" alt="Illustration d'une poche médicale." />
+         
           <h2>Le don de sang</h2>
         </div>
         <div>
+        <img  class="float_right" src="poche.png" alt="Illustration d'une poche médicale." />
           <h3>Pourquoi donner son sang ?</h3>
           <p>
             Parce qu’à l’heure actuelle, aucun médicament ne peut se substituer au sang humain ou à ses composants.

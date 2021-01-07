@@ -2,7 +2,7 @@ export const contact = `
   <div id="section_contact">
 
         <!--------- SECTION MAP----------------------->
-        <section id="section_map">Carte
+        <section id="section_map">
           <div id="map"></div>
         </section>
         <!-------------------- SECTION LOGO -------------------->
