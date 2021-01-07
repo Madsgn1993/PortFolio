@@ -41,6 +41,15 @@ export const quisommesnous = `
                     <button id="btn">Description</button>
                 </div>
             </div>
+            <div class="merci">
+            <h2>Remerciements</h2>
+            <p>Nous tenions a remercier : <br/>
+            Julie Moors pour nous avoir guidé avec le cahier des charges. <br/>
+            Loïc Truchot pour sa patience, ses encouragements et son aide technique.
+            <br/>
+            Sonia Blazquez pour la paix et l'ordre qu'elle a apporté.<br/>
+            Et Bastien Gorissen pour la solution de dernière minute et d'avoir été notre Jedi Github.</p>
+            </div>
             <hr/>
     </div>
    `;

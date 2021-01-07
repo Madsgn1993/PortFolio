@@ -79,6 +79,9 @@ footer {
     flex-direction: column;
     font-size: medium;
     text-align: center;
+    p {
+      color: $secondary_color;
+    }
   }
   .footer-nav,
   .others {

@@ -14,10 +14,10 @@ export const contact = `
         </section>
         <br />
         <!--------------------- SECTION INFOS----------------------->
-        <div id="text">Vous trouverez ci-dessus une map qui reprend les adresses de nos
-          partenaires (hôpitaux) et de nos locaux. Pour toute autre information,
-          n'hésitez pas à prendre contact avec nous.
-        </div >
+        <div>
+        <h1>Contact</h1>
+        <p class="text">Vous trouverez ci-dessus une map qui reprend les adresses de nos partenaires (hôpitaux) et de nos locaux. Pour toute autre information, n'hésitez pas à prendre contact avec nous.</p>
+        </div>
         <section class="infos-container">
           <div class="uno">
             <div class="phone">
@@ -26,7 +26,7 @@ export const contact = `
               </div>
               <div>
                 <p class="text"><strong>par téléphone</strong></p>
-                <p class="text">+32 2 XXX XX XX</p>
+                <p class="text">+32 2 345 67 89</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export const contact = `
                 <p class="text"><strong>par courrier</strong></p>
                 <!-- <p class="text"><strong>ICS-InCoporeSano</strong></p> -->
                 <div>
-                  <p class="text">rue Gaucherêt 80</p>
+                  <p class="text">rue Gaucherêt 80 <br/> </p>
                   <p class="text">1030 Bruxelles</p>
               </div>
               </div>
