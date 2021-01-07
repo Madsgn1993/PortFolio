@@ -15,7 +15,8 @@
     "bootstrap": "4.5.3",
     "jquery": "3.5.1",
     "leaflet": "^1.7.1",
-    "leaflet-defaulticon-compatibility": "^0.1.1"
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "tiny-slider": "^2.9.3"
   },
   "devDependencies": {
     "eslint": "7.11.0",
