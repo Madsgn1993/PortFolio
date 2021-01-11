@@ -249,10 +249,10 @@ export const donsvivant = `
       <!--DON DE REIN-->
 
 <section>
-  <h2>Greffe reinale ou don de rein</h2>
+  <h2>Don de rein</h2>
 
   <div>
-    <img src="rein.png" alt="Illustration d'un rein" />
+    <img src="reins.png" alt="Illustration d'un rein" class="float_right" id="illu_rein" />
 
     <h3>Pourquoi donner son rein ?</h3>
 
@@ -288,11 +288,11 @@ export const donsvivant = `
       greffon, au délai très bref entre prélèvement et la greffe et à la
       préparation du receveur).
       <br>
-        Toutefois, il faut respecter une certaine procédure pour remplir les conditions de don du rein. 
+      Toutefois, il faut respecter une certaine procédure pour remplir les conditions de don du rein. 
     </p>
-    <h4>Les étapes conduisant au don de rein</h4>
+    <h3>Les étapes conduisant au don de rein</h3>
 
-    <p>  Ces étapes sont habituellement les suivantes:
+    <p>Ces étapes sont habituellement les suivantes:
 
         <ul>
             <li>Informations générales (avantages pour le receveur; inconvénients et risques pour le donneur); éventuellement, avis d’un psychologue.</li>
@@ -307,32 +307,19 @@ export const donsvivant = `
             </li>
         </ul>
     </p>
-
-
-    <h4></h4>
   </div>
 
   <div>
-    <h3>les conditions pour recevoir</h3>
-
-    <h4>à partir d'un donneur vivant...</h4>
+    <h3>Les conditions pour recevoir à partir d'un donneur vivant...</h3>
 
     <p>
-      La durée de la période d’attente est très variable d’un patient à
-      l’autre. Le choix du receveur se fait sur base d’une série de critères
-      qui s’expriment désormais sous forme d’un score qui est le résultat de
-      l’addition de points.
+      La durée de la période d’attente est très variable d’un patient à l’autre. Le choix du receveur se fait sur base d’une série de critères qui s’expriment désormais sous forme d’un score qui est le résultat de l’addition de points.
       <br />
-      En effet, lorsque, dans un des pays qui font partie d’Eurotransplant,
-      un donneur d’organe est déclaré, les données médicales et le typage
-      HLA du donneur, seront confrontés avec la mémoire centrale de
-      l’ordinateur pour vérifier quels sont le ou les malades les plus
+      En effet, lorsque, dans un des pays qui font partie d’Eurotransplant, un donneur d’organe est déclaré, les données médicales et le typage HLA du donneur, seront confrontés avec la mémoire centrale de l’ordinateur pour vérifier quels sont le ou les malades les plus
       compatibles avec ce donneur.
       <br />
       En pratique, pour chaque rein disponible pour une transplantation dans
-      Eurotransplant, l’ordinateur imprime une liste sur laquelle sont
-      classés par ordre arithmétique, les différents candidats possibles à
-      la greffe. Le calcul de cet algorithme prend compte des différents
+      Eurotransplant, l’ordinateur imprime une liste sur laquelle sont classés par ordre arithmétique, les différents candidats possibles à la greffe. Le calcul de cet algorithme prend compte des différents
       paramètres suivants:
     </p>
 
