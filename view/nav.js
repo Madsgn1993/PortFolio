@@ -13,6 +13,12 @@ export const nav = `
         <li><a id="link_actualite" href="#">Actualités</a></li>
         <li><a id="link_quisommenous" href="#">Qui sommes nous? </a></li>
         <li><a id="link_contact" href="#">Contact</a></li>
+        <li><form id="section_search" class="search-box" action="" method="">
+        <input class="search-txt" type="text" name="" value="" placeholder="Search">
+        <button class="search-btn"type="button" name="button">
+          <i class="fas fa-search"></i>
+        </button>
+      </form></li>
     </ul>
     </nav>
    

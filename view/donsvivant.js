@@ -246,6 +246,106 @@ export const donsvivant = `
           </p>
         </div>
       </section>
+      <!--DON DE REIN-->
+
+<section>
+  <h2>Greffe reinale ou don de rein</h2>
+
+  <div>
+    <img src="rein.png" alt="Illustration d'un rein" />
+
+    <h3>Pourquoi donner son rein ?</h3>
+
+    <p>
+      Pour toute personne confrontée à l’insuffisance rénale terminale, la
+      greffe rénale représente l’espoir de retrouver une nouvelle liberté au
+      terme, il est vrai, d’un parcours parfois assez long : période
+      d’attente, le plus souvent en dialyse, l’intervention chirurgicale
+      elle-même, puis les premiers mois après la greffe avec ses propres
+      aléas et l’adaptation aux traitements qui ont pour objectif la
+      prévention du rejet de la greffe.
+      <br>
+      Il arrive que, chez certains patients, la défaillance irréversible d’un autre organe vital vienne s’ajouter à celle du rein; on peut alors envisager une greffe simultanée de deux organes provenant du même donneur décédé. C’est ainsi qu’ont été effectuées des greffes rein-cœur et rein-foie. Voir ci-dessous pour plus amples informations concernant les dons à partir d'un donneur décédé. 
+    </p>
+  </div>
+
+  <div>
+    <h3>Les conditions pour donner</h3>
+
+    <p>
+      Toute personne apparentée directement ou émotionnellement au receveur,
+      en bonne santé et de groupe sanguin compatible peut se proposer comme
+      donneur pour autant que sa démarche soit spontanée et que sa
+      motivation relève de la générosité. Dans la pratique, ces donneurs
+      sont essentiellement la mère, le père, les sœurs et frères, les
+      enfants … Un donneur apparenté plus éloigné (comme oncle, tante,
+      cousins) peut également se présenter. Nous n’excluons pas non plus un
+      donneur, non familial, particulièrement attaché au receveur, tel que
+      son conjoint, un beau frère, une belle sœur, un ami, une amie, … Dans
+      ces cas, les résultats de la greffe sont au moins équivalents à ceux
+      d’une greffe de rein de donneur décédé, malgré la moins bonne
+      compatibilité HLA (grâce probablement à la qualité constante du
+      greffon, au délai très bref entre prélèvement et la greffe et à la
+      préparation du receveur).
+      <br>
+        Toutefois, il faut respecter une certaine procédure pour remplir les conditions de don du rein. 
+    </p>
+    <h4>Les étapes conduisant au don de rein</h4>
+
+    <p>  Ces étapes sont habituellement les suivantes:
+
+        <ul>
+            <li>Informations générales (avantages pour le receveur; inconvénients et risques pour le donneur); éventuellement, avis d’un psychologue.</li>
+            <li>Temps de réflexion.</li>
+            <li>Évaluation médicale:
+                <li>Groupe sanguin ABO (il doit, à de très rares exceptions près, être compatible, c’est-à-dire qu’il faut observer les mêmes règles que la transfusion: un sujet O peut donner à tout receveur; un sujet A ne peut donner qu’à un autre A ou à un AB; un sujet B à un autre B ou à un AB; un sujet AB seulement à un AB). On ne tient pas compte de la compatibilité des groupes rhésus (qui sont portés par les globules rouges et ne sont pas transplantés en même temps que le rein).</li>
+                <li>Examen clinique et biologique général (prise de sang et examen d’urine).</li>
+                <li>Sérologie virale. A remarquer qu’un donneur, porteur sain d’un virus, peut donner un rein (ou tout autre organe ou morceau d’organe) à condition que le receveur soit immunisé activement (vaccin) ou passivement (a fait la maladie dans le passé) contre ce virus.</li>
+                <li><strong>Bilan immunologique</strong>: Typage HLA et Cross-match avec le receveur: il doit impérativement être négatif.</li>
+                <li><strong>Echographie rénale et bilan cardio-vasculaire</strong></li>
+                <li><strong>Angioscanner pour étudier la morphologie des reins et de leur vascularisation</strong>: L’absence de toute anomalie rénale, d’hypertension artérielle et de facteur de risque chirurgical est formellement requise.</li>
+            </li>
+        </ul>
+    </p>
+
+
+    <h4></h4>
+  </div>
+
+  <div>
+    <h3>les conditions pour recevoir</h3>
+
+    <h4>à partir d'un donneur vivant...</h4>
+
+    <p>
+      La durée de la période d’attente est très variable d’un patient à
+      l’autre. Le choix du receveur se fait sur base d’une série de critères
+      qui s’expriment désormais sous forme d’un score qui est le résultat de
+      l’addition de points.
+      <br />
+      En effet, lorsque, dans un des pays qui font partie d’Eurotransplant,
+      un donneur d’organe est déclaré, les données médicales et le typage
+      HLA du donneur, seront confrontés avec la mémoire centrale de
+      l’ordinateur pour vérifier quels sont le ou les malades les plus
+      compatibles avec ce donneur.
+      <br />
+      En pratique, pour chaque rein disponible pour une transplantation dans
+      Eurotransplant, l’ordinateur imprime une liste sur laquelle sont
+      classés par ordre arithmétique, les différents candidats possibles à
+      la greffe. Le calcul de cet algorithme prend compte des différents
+      paramètres suivants:
+    </p>
+
+    <ul>
+      <li>Degré de compatibilité HLA avec le donneur</li>
+      <li>Rareté du phénotype HLA</li>
+      <li>Présence d’anticorps anti-HLA</li>
+      <li>Durée d’attente</li>
+      <li>Distance entre le centre donneur et le centre receveur</li>
+      <li>Balance nationale importation/exportation de greffon</li>
+    </ul>
+</section>
       <hr/>
+
     </div>
   `;
