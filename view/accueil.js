@@ -43,6 +43,10 @@ export const accueil = `
       <img class="img" id=" poumon" src="poumon.png" />
     </div>
 
+    <div class="blank">
+      <img class="img" id="pochePlasma" src="pochePlasma.png" />
+    </div>
+
 
     <div class="blank">
       <img class="img" id="coeur" src="coeur.png" />
@@ -59,6 +63,10 @@ export const accueil = `
 
     <div class="blank">
      <img class="img" id="uterus" src="uterus.png" />
+    </div>
+
+    <div class="blank">
+     <img class="img" id="coeurMecanique" src="coeurMecanique.png" />
     </div>
   </div>
 

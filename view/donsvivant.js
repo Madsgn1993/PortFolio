@@ -162,6 +162,8 @@ export const donsvivant = `
         </div>
         <div>
           <h3>Pourquoi donner son plasma ?</h3>
+          <img  class="float_left" src="pochePlasma.png" alt="Illustration d'une poche plasma." />
+
           <p>
             Certains médicaments ne peuvent être fabriqués qu’à partir du plasma humain
             et sont indispensables à la survie et au mieux-être de nombreux patients.

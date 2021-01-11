@@ -53,20 +53,45 @@ export const donsmort = `
       <p>Un seul poumon est remplacé, l'autre étant laissé en place. La circulation extracorporelle n'est généralement pas nécessaire</p>
       <div>
         <h2>La greffe cœur-poumons</h2>
-        <img class="float_right" src="coeur.png" alt="illustration coeur" id="coeurIllu"/>
         
-        <p>L'ensemble cœur-poumons est greffé. Dans ce cas, la circulation extracorporelle est bien sûr indispensable. La préparation du receveur comprend d'abord l'ablation du cœur, puis celle des poumons. Ensuite les poumons sont mis en place dans le thorax et la trachée est suturée à celle du receveur. Le coeur est suturé comme dans le cas d'une transplantation cardiaque.L'intervention dure 6 à 8 heures.</p>
+        
+        <p>L'ensemble cœur-poumons est greffé. Dans ce cas, la circulation extracorporelle est bien sûr indispensable.</br> La préparation du receveur comprend d'abord l'ablation du cœur, puis celle des poumons. Ensuite les poumons sont mis en place dans le thorax et la trachée est suturée à celle du receveur.</br><img class="float_right" src="coeur.png" alt="illustration coeur" id="coeurIllu"/> Le coeur est suturé comme dans le cas d'une transplantation cardiaque.L'intervention dure 6 à 8 heures.</p>
         </br>
-
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti.</p>
-        </br>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti.</p>
-        </br>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti.</p>
-        </br>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti.</p>
-        </br>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur est deserunt sed, totam blanditiis asperiores quasi quo officia obcaecati et vitae, ipsam commodi quis veniam numquam itaque. Ad, deleniti.</p>
+      
+        <h2>Au coeur de l'histoire </h2>
+        <p>
+        <strong> BRUXELLES </strong>: Si les chirurgiens sont plutôt optimistes sur les chances d'une vie paisible avec un coeur mécanique, cela n'a pas toujours été le cas. Bien des expériences ont été nécessaires pour en arriver là.
+        <ul>
+          <li>1905 : premières expériences de greffes chez l'animal.</li>
+          
+          <li>1952 : première greffe rénale mondiale entre donneurs apparentés par le professeur Hamburger</li>
+          
+          <li>1958 : Le professeur Dausset découvre les antigènes d'histocompatibilité (HLA)</li>
+          
+          <li>1967 : première greffe cardiaque mondiale par le professeur Barnard, Afrique du Sud</li>
+          
+          <li>1968 : première greffe cardiaque européenne par le professeur Cabrol, France</li>
+          
+          <li>1969 : le professeur Dausset crée l'association France Transplant dont le président est le professeur Cabrol</li>
+          
+          <li>1972 : découverte par le professeur Borel d'une substance antirejet : la ciclosporine</li>
+          
+          <li>1967 : Première mondiale au Cap! Le professeur Barnard réalise la première greffe du coeur. Mais le problème des rejets n'est pas résolu </li>
+          
+          <li>1973 : Grande première à l'Hôpital Brugmann: le Pr Primo réussit la première greffe cardiaque belge.</li>
+          
+          <li>Années 80. Les coeurs artificiels greffés doivent être connectés par des câbles et des tubes. Barney Clark a vécu 112 jours après l'opération en décembre 1982.
+          La personne qui a réussi a vivre le plus longtemps avec cette greffe fut William Schoreder, de l'Indiana. Il est mort 620 jours après que l'appareil ait été connecté.</li>
+          
+          <li>Années 90 : les pompes centrifuges sont créées</li>
+        </ul>
+        </p>
+        <div id="content_meca">
+          <h2>La greffe artificielle? C'est pour bientôt</h2>
+          <img class="float_left" id="coeur_meca" src="coeurMecanique.png" alt="illustration coeur mecanique"/>
+          <p> En dehors de la France, quatre centres dans le monde ont été sélectionnés pour participer à ces essais d’implantation du cœur Carmat, qui devraient inclure 25 patients pour ce premier essai.</br> En l’occurrence, la Slovénie, la Pologne, l’Arabie saoudite et… la Belgique.</br> Pour avoir travaillé avec le Pr Alain Carpentier, le Dr Dider de Cannière, chirurgien cardiaque au CHU Saint-Pierre, participera donc à "cette aventure", comme nous l’a expliqué le Pr Nathan Clumeck, directeur du CHU St-Pierre.</p>
+        </div>
+        
         
       </div>
 <hr/>      

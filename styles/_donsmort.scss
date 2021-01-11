@@ -10,9 +10,25 @@
   }
   margin: 5%;
 }
-/*#coeurIllu {
-  height: 200px;
-  width: 200px;
+#coeurIllu {
+  height: 250px;
+  width: 250px;
 }
-class="float_left"
-class="float_right"*/
+
+#coeur_meca {
+  height: 250px;
+  width: 250px;
+}
+
+#content_meca {
+  background-color: rgba(220, 220, 220, 0.363);
+  box-shadow: 9px 7px 17px 2px $secondary_color;
+
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  margin-top: 45px;
+  p {
+    padding: 100px;
+  }
+}

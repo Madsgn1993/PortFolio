@@ -19,58 +19,42 @@ export const contact = `
         <p class="text">Vous trouverez ci-dessus une map qui reprend les adresses de nos partenaires (hôpitaux) et de nos locaux. Pour toute autre information, n'hésitez pas à prendre contact avec nous.</p>
         </div>
         <section class="infos-container">
-          <div class="uno">
-            <div class="phone">
-              <div class="icon">
-                <i class="fas fa-phone-alt"></i>
+          <div class="containt_info">
+              <div class="coordonne">
+                <i class="fas fa-phone-alt" class="icone"></i>
+                <p><strong>par téléphone</strong></p>
+                <p>+32 2 345 67 89</p>
               </div>
-              <div>
-                <p class="text"><strong>par téléphone</strong></p>
-                <p class="text">+32 2 345 67 89</p>
-              </div>
-            </div>
           </div>
-          <div class="dos">
-            <div class="mail">
-              <div class="icon">
-                <i class="fas fa-paper-plane"></i>
+
+          <div class="containt_info">
+              <div class="coordonne">
+                  <i class="fas fa-paper-plane"></i>
+                  <p><strong>par email</strong></p>
+                  <p>info@incorporesano.be</p>
               </div>
-              <div class="mail">
-                <p class="text"><strong>par email</strong></p>
-                <br>
-                <p class="email">info@incorporesano.be</p>
-              </div>
-            </div>
           </div>
-          <div class="tres">
-            <div class="letter">
-              <div class="icon">
+
+
+          <div class="containt_info">
+            <div class="coordonne">
                 <i class="fas fa-envelope-open-text"></i>
-              </div>
-              <div class="adresse">
-                <p class="text"><strong>par courrier</strong></p>
-                <!-- <p class="text"><strong>ICS-InCoporeSano</strong></p> -->
-                <div>
-                  <p class="text">rue Gaucherêt 80 <br/> </p>
-                  <p class="text">1030 Bruxelles</p>
-              </div>
-              </div>
+                <p><strong>par courrier</strong></p>
+                <p>rue Gaucherêt 80 <br/> </p>
+                <p>1030 Bruxelles</p>
+            </div>    
+          </div>
+
+
+
+          <div class="containt_info">
+            <div class="coordonne">
+                  <i class="fas fa-file-alt"></i>
+                  <p><strong>Par formulaire</strong></p>
+                  <p>cliquer pour remplir</p>
             </div>
           </div>
-          <div class="quatro">
-            <div class="form">
-              <div class="icon">
-                <i class="fas fa-file-alt"></i>
-              </div>
-              <div>
-                <p class="text">
-                  <strong>Par formulaire</strong>
-                </p>
-                <p class="text">cliquer pour remplir</p>
-              </div>
-            </div>
-          </div>
-        </section>
+      </section>
   
       <hr />
    
