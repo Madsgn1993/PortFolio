@@ -17,10 +17,10 @@
     text-align: center;
   }
   a {
-    color: white;
+    color: $fifth_color;
     text-decoration: none;
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
     }
   }
 

@@ -21,27 +21,33 @@ export const contact = `
         <section class="infos-container">
           <div class="containt_info">
               <div class="coordonne">
+              <a href="#">
                 <i class="fas fa-phone-alt" class="icone"></i>
                 <p><strong>par téléphone</strong></p>
                 <p>+32 2 345 67 89</p>
+                </a>
               </div>
           </div>
 
           <div class="containt_info">
+          <a href="#">
               <div class="coordonne">
                   <i class="fas fa-paper-plane"></i>
                   <p><strong>par email</strong></p>
                   <p>info@incorporesano.be</p>
               </div>
+            </a>
           </div>
 
 
           <div class="containt_info">
             <div class="coordonne">
+            <a href="#">
                 <i class="fas fa-envelope-open-text"></i>
                 <p><strong>par courrier</strong></p>
                 <p>rue Gaucherêt 80 <br/> </p>
                 <p>1030 Bruxelles</p>
+                </a>
             </div>    
           </div>
 
@@ -49,9 +55,11 @@ export const contact = `
 
           <div class="containt_info">
             <div class="coordonne">
+            <a href="#">
                   <i class="fas fa-file-alt"></i>
                   <p><strong>Par formulaire</strong></p>
                   <p>cliquer pour remplir</p>
+                  </a>
             </div>
           </div>
       </section>
