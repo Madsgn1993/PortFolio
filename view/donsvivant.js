@@ -252,7 +252,7 @@ export const donsvivant = `
   <h2>Don de rein</h2>
 
   <div>
-    <img src="reins.png" alt="Illustration d'un rein" class="float_right" id="illu_rein" />
+   
 
     <h3>Pourquoi donner son rein ?</h3>
 
@@ -264,6 +264,7 @@ export const donsvivant = `
       elle-même, puis les premiers mois après la greffe avec ses propres
       aléas et l’adaptation aux traitements qui ont pour objectif la
       prévention du rejet de la greffe.
+      <img src="reins.png" alt="Illustration d'un rein" class="float_right" id="illu_rein" />
       <br>
       Il arrive que, chez certains patients, la défaillance irréversible d’un autre organe vital vienne s’ajouter à celle du rein; on peut alors envisager une greffe simultanée de deux organes provenant du même donneur décédé. C’est ainsi qu’ont été effectuées des greffes rein-cœur et rein-foie. Voir ci-dessous pour plus amples informations concernant les dons à partir d'un donneur décédé. 
     </p>
