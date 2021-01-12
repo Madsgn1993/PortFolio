@@ -10,6 +10,7 @@ export const contact = `
           <section class="logo">
             <div class="ics"></div>
             <!-- demander les images de main en petit à Madisson  -->
+            
           </section>
         </section>
         <br />
