@@ -13,9 +13,11 @@ export const accueil = `
       </div>
       <div class="intro">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          molestias ducimus numquam fuga expedita aliquam quibusdam
-          consequatur magni cupiditate sunt?
+        In Copore Sano a pris vie dans le but de créer une plateforme d’information concernant les tenants et aboutissants sur pour les dons d'organes.
+         En vérifiant le site officiel du SPF Santé, nous nous sommes rendues compte qu'il y avait beaucoup d'options et d'information.
+        Ce qui n'est pas le cas des dons faits de notre vivant.
+        Ainsi nous avons créé une liste exhaustive des dons qui sont capables d'être exécuté autant de lors notre vivant que de notre mort,
+         se renseigner sur nos droits, les droits de nos familles et de nos proches et de nos protections juridiques lors d'une prise de décision.
         </p>
       </div>
     </div>
