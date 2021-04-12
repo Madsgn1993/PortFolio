@@ -1,0 +1,129 @@
+a {
+  height: 100%;
+  width: 100%;
+}
+
+#illu_apropos {
+  position: absolute;
+  left: 10%;
+  top: 8%;
+  margin: 0;
+  padding: 0;
+  height: 25%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+#illu_photo {
+  height: 180px;
+  width: 200px;
+  top: 60%;
+  right: 15%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+#illu_dessin {
+  height: 160px;
+  width: 160px;
+  left: 4%;
+  position: absolute;
+  bottom: 17%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#illu_contact {
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.sizeImage {
+  height: 160px;
+  width: 160px;
+  
+  border-radius: 50%;
+  border: 2px solid $secondary-color;
+  background-color: rgba($color: $third-color, $alpha: 0.3);
+}
+
+#portail {
+  top: 4%;
+  position: absolute;
+  height: 700px;
+  width: 482px;
+  left: 35%;
+  margin: 0;
+  padding: 0;
+  -webkit-animation: pulse 4s alternate infinite linear;
+  -moz-animation: pulse 4s alternate infinite linear;
+  -ms-animation: pulse 4s alternate infinite linear;
+  -o-animation: pulse 4s alternate infinite linear;
+  animation: pulse 4s alternate infinite linear;
+}
+@-webkit-keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@-o-keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-moz-keyframes orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes orbit {
+  100% {
+    transform: rotate(360deg);
+  }
+}

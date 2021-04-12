@@ -1,0 +1,227 @@
+
+/*#scene {
+    position: relative;
+    width: 700px;
+    height: 600px;
+    margin: 0 auto;
+}
+ 
+#portail {
+    top: 26%;
+    position: absolute;
+    height: 500px;
+    width: 322px;
+    left: 42%;
+    margin-top: -100px;
+    margin-left: -100px;
+ 
+    -webkit-animation: pulse 4s alternate infinite linear;
+    -moz-animation: pulse 4s alternate infinite linear;
+    -ms-animation: pulse 4s alternate infinite linear;
+    -o-animation: pulse 4s alternate infinite linear;
+    animation: pulse 4s alternate infinite linear;
+}
+ 
+#illu_apropos {
+    position: absolute;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+    height: 70px;
+    width: 70px;
+}
+#orbit1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 350px;
+    margin-top: -175px;
+    margin-left: -175px;
+    //border: 2px solid $third-color;
+    -mozborder-radius: 50%;
+    -webkitborder-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: orbit 25s linear infinite;
+    -moz-animation: orbit 25s linear infinite;
+    -ms-animation: orbit 25s linear infinite;
+    -o-animation: orbit 25s linear infinite;
+    animation: orbit 25s linear infinite;
+    
+}
+
+#orbit2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ 
+    width: 600px;
+    height: 700px;
+    margin-top: -300px;
+    margin-left: -312px;
+ 
+    border: 2px solid $third-color;
+    -mozborder-radius: 50%;
+    -webkitborder-radius: 50%;
+   border-radius: 50%;
+ 
+    -webkit-animation: orbit 25s linear infinite;
+    -moz-animation: orbit 25s linear infinite;
+    -ms-animation: orbit 25s linear infinite;
+    -o-animation: orbit 25s linear infinite;
+    animation: orbit 25s linear infinite;
+    a{
+
+        height: 100%;
+        width: 100%;
+
+    }
+   
+
+    #lien_photo{
+
+        height: 180px;
+        width: 180px;
+        margin-left: 20%;
+        display: block;
+        top: -7%;
+        position: absolute;
+
+    }
+
+    #lien_dessin{
+
+        height: 180px;
+        width: 180px;
+        margin-left: 80%;
+        display: block;
+        position: absolute;
+        bottom: 7%;
+    }
+
+    
+    #lien_contact{
+
+
+        height: 180px;
+        width: 180px;
+        margin-left: 80%;
+        margin-top: 36%;
+
+
+    }
+}
+
+#lien_photo{
+
+    height: 180px;
+    width: 180px;
+    margin-left: 20%;
+    display: block;
+    top: -7%;
+    position: absolute;
+
+}
+
+#lien_dessin{
+
+    height: 180px;
+    width: 180px;
+    margin-left: 80%;
+    display: block;
+    position: absolute;
+    bottom: 7%;
+}
+
+
+#lien_contact{
+
+
+    height: 180px;
+    width: 180px;
+    margin-left: 80%;
+    margin-top: 36%;
+
+
+}
+ 
+#moon {
+    margin-left: 80px;
+    margin-top: -20px;
+}
+#moon-orbit {
+    width: 200px;
+    height: 200px;
+ 
+    position: absolute;
+    top: 50%;
+    margin-top: -100px;
+    margin-left: -100px;
+ 
+    -webkit-animation: orbit 10s linear infinite;
+    -moz-animation: orbit 10s linear infinite;
+    -ms-animation: orbit 10s linear infinite;
+    -o-animation: orbit 10s linear infinite;
+    animation: orbit 10s linear infinite;
+}
+ 
+ .img_orbite{
+
+    height: 120px;
+    width: 120px;
+
+ }
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+@-moz-keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+@-o-keyframes pulse {
+    0% {
+        transform: scale(0.9);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+    }
+    100%  {
+        transform: scale(1);
+    }
+}
+ 
+ 
+@-webkit-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@-moz-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@-o-keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}
+@keyframes orbit {
+    100%  {
+        transform: rotate(360deg)
+    }
+}*/
